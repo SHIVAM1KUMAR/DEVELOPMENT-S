@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mood-Based Theme Generator</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Mood-Based Theme Generator</h1>
+    <p>Select your mood or use voice commands!</p>
+
+    <!-- Mood Selector -->
+    <div class="mood-selector">
+      <button onclick="changeMood('happy')">😊 Happy</button>
+      <button onclick="changeMood('calm')">😌 Calm</button>
+      <button onclick="changeMood('energetic')">⚡ Energetic</button>
+      <button onclick="changeMood('focused')">🎯 Focused</button>
+    </div>
+
+    <!-- Voice Command Button -->
+    <button id="voice-btn">🎙️ Speak Mood</button>
+
+    <!-- Custom Mood Creator -->
+    <div class="custom-mood">
+      <h3>Create Your Own Mood</h3>
+      <input type="color" id="bg-color" value="#ffffff">
+      <input type="color" id="text-color" value="#000000">
+      <button onclick="createCustomMood()">Apply Custom Mood</button>
+    </div>
+
+    <section class="content">
+      <h2>Welcome!</h2>
+      <p>This interactive website changes its theme based on your mood. Try using your voice or create a custom mood!</p>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
