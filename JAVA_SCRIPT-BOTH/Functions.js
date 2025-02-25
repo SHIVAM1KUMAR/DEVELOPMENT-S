@@ -17,7 +17,7 @@ function loginUserMessage(username="Anoy"){
 function calculateCartPrice(...num1){    //rest operator
     return num1
 }
-//console.log(calculateCartPrice(200,400,500))
+console.log(calculateCartPrice(200,400,500))
 
 
 const User={
@@ -26,6 +26,6 @@ const User={
 }
 
 function handleObject(anyObject){
-    console.log(`User name is ${anyObject.name}and numer is ${anyObject.n}`);
+    console.log(`User name is ${anyObject.name}and number is ${anyObject.n}`);
 }
 handleObject(User)

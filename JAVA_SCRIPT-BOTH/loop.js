@@ -39,11 +39,11 @@ let array=[1,2,3]
 
 
 
-let score=1
-do {
-    console.log(`scores are ${score}`);
-    score++
+// let score=1
+// do {
+//     console.log(`scores are ${score}`);
+//     score++
     
-} while (score<5);
+// } while (score<5);
 
 
